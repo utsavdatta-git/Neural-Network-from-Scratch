@@ -7,9 +7,12 @@ hidden_layer.py to define one hidden layer of the network
 mlp.py to define the whole network with a set of hidden layers
 
 ## experiments package contains:
-experiments.py to perform experiments with various combinations of network size, activation functions and optimizations
-train vs validation accuracy and loss plots for all experiments
-one final experiment on mnist dataset for submission to kaggle
+Experiments.py to perform experiments with various combinations of network size, activation functions and optimizations
+Train vs validation accuracy and loss plots for all experiments
+One final experiment on mnist dataset for submission to kaggle
 
 ## test package contains:
-comparison test cases between the numpy implementaion and a similar keras model
+Comparison test cases between the numpy implementaion and a similar keras model
+
+## exceptions package contains:
+User defined exceptions to raise during neural network creation like "shape mismatch between input data and no. of input layer neurons etc.
